@@ -1,0 +1,32 @@
+@if(land == true){
+  <div    class="mt-32 relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group  grid grid-cols-1 sm:grid-cols-2 gap-6 p-6">
+
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Ceramics/87296163_2946091022133634_8745654141759520768_n.jpg" alt="Ceramics" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Ceramics/87326594_2946090715466998_1419153577959489536_n.jpg" alt="Ceramics" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Ceramics/87354594_2946090608800342_4033281282321416192_n.jpg" alt="Ceramics" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Ceramics/87358448_2946090692133667_3735406063185297408_n.jpg" alt="Ceramics" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute top-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.ceramics.title'|translate}}</p>
+
+  </div>
+
+ <div class="text-center col-span-full">
+     <p class=" w-[80%] mx-auto ">{{'gallery.ceramics.description'|translate}}</p>
+ </div>
+
+</div>
+<div class="mx-auto"> <app-homenav/></div>
+}@else {
+  <div [routerLink]="['/ceramics']"  routerLinkActive="router-link-active"  class="relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group cursor-pointer gap-6 p-6">
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Ceramics/87296163_2946091022133634_8745654141759520768_n.jpg" alt="Ceramics" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute bottom-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.ceramics.title'|translate}}</p>
+
+  </div>
+
+  
+
+</div>
+}

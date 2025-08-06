@@ -1,0 +1,68 @@
+@if(land ==false){
+    <section class="mt-60 container mx-auto p-5" id="about" >
+    <h1 class="text-center text-4xl text-shadow-lg text-shadow-main  text-text mt-10">{{'about.about us'|translate}}</h1><i class="fa-solid fa-minus mx-[50%]"></i>
+    <div class="our Vision">
+        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.our vision'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+
+    <article class="mt-10 text-shadow-lg text-shadow-main  text-text ">{{'about.Vart'|translate}}</article>
+    </div>
+
+    <div class="Our-Mission">
+        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Our Mission'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text">{{'about.Mp'|translate}}</p>
+    </div>
+
+  <a routerLink="/about" class="nav button flex  justify-end w-full mt-10 text-2xl text-text cursor-pointer hover:text-icons"> <span >{{'about.learn more'|translate}} </span> <i  class="fa-solid ms-1 mt-1 fa-newspaper"></i></a>
+      
+    
+
+</section>
+
+}@else{
+    <section class="my-10 container mx-auto p-5 z-3" id="about">
+    <h1 class="text-center text-4xl text-shadow-lg text-shadow-main  text-text mt-10">{{'about.about us'|translate}}</h1><i class="fa-solid fa-minus mx-[50%]"></i>
+    <div class="our Vision">
+        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.our vision'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+
+    <article class="mt-10 text-shadow-lg text-shadow-main  text-text ">{{'about.Vart'|translate}}</article>
+    </div>
+
+    <div class="Our-Mission">
+        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Our Mission'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text">{{'about.Mp'|translate}}</p>
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.offer'|translate}}</p>
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.empower'|translate}}</p>
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.revive'|translate}}</p>
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.create'|translate}}</p>
+        
+
+    </div>
+    <div class="why-we-exsists">
+         <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.why'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.cuz'|translate}}</p>
+
+        <div class="events-at-alwanat">
+            <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Activities inside alwanat.events'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+
+            <ul class="list-disc pl-5 space-y-3 text-lg">
+                <li>{{'about.Activities inside alwanat.courses'|translate}}</li>
+                <li>{{'about.Activities inside alwanat.cultural'|translate}}</li>
+                <li>{{'about.Activities inside alwanat.coworking'|translate}}</li>
+                <li>{{'about.Activities inside alwanat.library'|translate}}</li>
+                <li>{{'about.Activities inside alwanat.youth'|translate}}</li>
+                <li>{{'about.Activities inside alwanat.kids'|translate}}</li>
+            </ul>
+        </div>
+
+    </div>
+
+
+  <app-homenav/>
+
+      
+    
+
+</section>
+}

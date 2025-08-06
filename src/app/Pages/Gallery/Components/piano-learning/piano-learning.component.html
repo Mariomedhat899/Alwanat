@@ -1,0 +1,31 @@
+@if(land == true){
+  <div   class="mt-32 relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group  grid grid-cols-1 sm:grid-cols-2 gap-6 p-6">
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Piano Learning/175174791_4137911086284949_2497557097981265523_n.jpg" alt="Piano Learning" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Piano Learning/177592514_4137910916284966_5929974927712788636_n.jpg" alt="Piano Learning" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Piano Learning/177624923_4137910922951632_2764048693451058083_n.jpg" alt="Piano Learning" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Piano Learning/177710219_4137911012951623_7408313480153739679_n.jpg" alt="Piano Learning" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute top-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.piano learning.title'|translate}}</p>
+  </div>
+  
+
+  <div class="text-center col-span-full">
+     <p class=" w-[80%] mx-auto ">{{'gallery.piano learning.description'|translate}}</p>
+ </div>
+
+
+</div>
+<div class="w-full"> <app-homenav/></div>
+
+
+}@else {
+  <div [routerLink]="['/piano']"  routerLinkActive="router-link-active"  class="relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group cursor-pointer gap-6 p-6">
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Piano Learning/175174791_4137911086284949_2497557097981265523_n.jpg" alt="Piano Learning" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+
+  <div class="absolute bottom-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.piano learning.title'|translate}}</p>
+  </div>
+</div>
+}

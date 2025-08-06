@@ -1,0 +1,31 @@
+@if(land == true){
+  <div    class="mt-32 relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group  grid grid-cols-1 sm:grid-cols-2 gap-6 p-6">
+
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Drawing For Kids/479495112_9401896816552990_7106610492147478722_n.jpg" alt="Drawing For Kids" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Drawing For Kids/479552233_9401896473219691_5747578403670043250_n.jpg" alt="Drawing For Kids" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Drawing For Kids/479729495_9401896526553019_8991321157245582728_n.jpg" alt="Drawing For Kids" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Drawing For Kids/479733204_9401896743219664_8773755824564356304_n.jpg" alt="Drawing For Kids" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute top-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.drawing for kids.title'|translate}}</p>
+
+  </div>
+
+ <div class="text-center col-span-full">
+     <p class=" w-[80%] mx-auto ">{{'gallery.drawing for kids.description'|translate}}</p>
+ </div>
+
+</div>
+<div class="mx-auto"> <app-homenav/></div>
+}@else {
+  <div [routerLink]="['/drawing']"  routerLinkActive="router-link-active"  class="relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group cursor-pointer gap-6 p-6">
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Drawing For Kids/479495112_9401896816552990_7106610492147478722_n.jpg" alt="Drawing For Kids" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute bottom-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.drawing for kids.title'|translate}}</p>
+  </div>
+
+  
+
+</div>
+}

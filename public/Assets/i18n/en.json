@@ -1,0 +1,92 @@
+{
+    "navbar":{
+        "home": "Home",
+        "about us": "About Us",
+        "events": "Events",
+        "workshops": "Workshops",
+        "gallery": "Gallery"
+    }
+    ,
+    "hero": {
+        "slogan": "Art for Everyone"
+        
+    }
+    ,
+    "events":{
+        "title": "Events",
+        "gymnastics": "Gymnastics",
+        "gymnastics description": "A gymnastics event showcasing the best gymnasts in the region.",
+        "seven years of alwanat": "Seven Years of Alwanat",
+        "seven years of alwanat description": "A celebration of seven years of Alwanat, featuring art exhibitions, performances, and workshops.",
+        "our champions in gymnastics": "Our Champions in Gymnastics",
+        "our champions in gymnastics description": "A tribute to our champions in gymnastics, highlighting their achievements and contributions to the sport.",
+        "more events":"More Events",
+        "back to home":"Back To Home",
+         "historic":{
+            "title":"A historic visit from  Dr.magda saleh",
+            "description":"We are very pleased with the historic visit of Dr. Magda Saleh, the first ballet dancer in Egypt and the first dean of the Ballet Institute. We present to you the first part of this historic visit It is the opening of alwanat ballet school hall , which we have the honor to name as Dr. Magda Saleh In recognition of its history, continuous support and encouragement #Alwanat_Ballet_School #Alwanat #el_minia We are very, very happy to welcome Dr. Magda Saleh, the first Egyptian ballet dancer and the first dean of the Ballet Institute of Alwanat School of Ballet 😊 This is #part_one of our coverage of the visit. The opening of the hall of the Alwanat School of Ballet, which we are honored to name after Dr. Magda as a small gesture of appreciation for her history and her constant encouragement for us."
+        },
+        "message":{
+            "title":"Message Of Life",
+            "description":"With the first news about Alwanat Ballet School in 2015 as the first ballet school in Upper Egypt, we began to realize the journey ahead — we had other artistic activities and could have skipped ballet, but we chose the harder path, learning from experiences that made us stronger and helped us understand the deep impact on every participating child, even up to age 25. Ballet in Minya became a message rejecting the idea that Upper Egypt is uncivilized and that girls don't have the right to practice an art form available in the capital; it clarified that ballet is an art that brings joy and great self-confidence, helping parents see deeper meaning beyond superficial judgments. It rejected bullying and the idea that any girl is unattractive, even from her own family, by showing her inner beauty through acceptance. Ballet stood against all forms of ugliness, proving that persistent beauty commands space and attention. It affirmed that self-perception and personal choices define true value, not others’ opinions. It encouraged every dream, reminding us it’s never too late. Ballet — like all art — remains a message of life through every crisis. And today, through a collection of photos featuring our most wonderful children, we reaffirm these messages and the values we continue to stand by. #Alwanat #Alwanat_Ballet_School"
+        }
+    },
+   
+    
+    "about":{
+        "about us": "About Us",
+        "our vision":"Our Vision",
+        "Vart":"Alwanat is a cultural and artistic initiative rooted in Upper Egypt, specifically Minya, aiming to bring art closer to people’s daily lives — regardless of age, background, or experience.We dream of transforming our community through creativity, expression, and shared experiences.",
+        "Our Mission":"Our Mission",
+         "Mp":"#Minya_the_Capital_of_Art_and_Culture",
+         "offer": "Offer free and accessible artistic workshops in painting, music, acting, crafts, and more",
+         "empower":"Empower children and youth to express themselves through creativity",
+         "revive":"Revive local heritage and folk arts in modern and inspiring ways",
+         "create":"Create safe, inclusive spaces for expression, collaboration, and imagination",
+         "learn more":"Learn More",
+         "why":"Why We Exist",
+         "cuz":"In places where artistic opportunities are rare, we aim to plant seeds of inspiration and spark change — one brushstroke, one song, and one shared story at a time.",
+         "back to home":"Back To Home",
+         "Activities inside alwanat":{
+            "events": "Activities Inside Alwanat",
+            "courses": "Courses in various artistic fields for all ages and groups (Drawing, Music, Photography, Cinema, Theater, Ballet, Arabic Calligraphy, Calligraffiti, Editing, Marionette, Arts & Crafts)",
+            "cultural": "Cultural and artistic events (Alwanat Film Club, Poetry evenings, Music and singing shows, Literary evenings, Book signing events)",
+            "coworking": "Coworking space for creative and artistic work",
+            "library": "Library with books from major publishers and specialized books donated by the National Center for Translation",
+            "youth": "Youth meetings under the name 'Useful Time' to discuss beneficial topics",
+            "kids": "Children's activities (Alwanat Playground, Alwanat Kids Academy, Children’s Cinema Club, Art workshops and trainings)"
+         }
+    },
+    "fotter":{
+        "About": "About",
+        "Contact": "Contact",
+        "Licensing": "Licensing",
+        "privacy Policy": "Privacy Policy"
+        
+    },
+    "gallery":{
+        "header":"Gallery",
+        "sports day":{
+            "title":"Sports Day",
+            "description":"It’s not just important for their bodies, but it also greatly contributes to their mental health and emotional balance 💚🕊️ This is the perfect time to encourage all our children to engage in outdoor sports and adopt healthy eating habits. A group of our little champions from the gymnastics trainees kicked off the new year with an exciting sports day full of energy and enthusiasm ❤😊 The activity was accompanied by a variety of healthy meals that the children loved and interacted with wonderfully!"
+        },
+        "piano learning":{
+            "title":"Piano Learning",
+            "description":"Discover the beauty of music through our fun and interactive piano lessons. Children will learn the basics of piano playing, improve their musical ear, and express themselves creatively — all in a joyful and encouraging environment."
+
+        },
+        "drawing for kids":{
+            "title":"Drawing For Kids",
+            "description":"Unleash your child's creativity through our engaging drawing sessions! Kids will explore colors, shapes, and techniques while expressing their imagination freely. Perfect for building focus, confidence, and fine motor skills — all while having fun."
+        },
+        "ceramics":{
+            "title":"Ceramics",
+            "description":"Let your child get hands-on with clay in our exciting ceramics sessions! Kids will learn how to shape, mold, and decorate their own creations while enhancing their creativity, patience, and sensory skills — all in a fun, safe environment."
+        }
+
+
+
+    }
+
+
+}

@@ -1,0 +1,57 @@
+@if(land == false){
+    <div class="container mx-auto rounded-lg p-9 shadow-black" id="events">
+
+    <div class="flex p-2 justify-center  text-center"><h2 class="text-center text text-shadow-main text-4xl text-text mt-20">{{'events.title'|translate}}</h2></div><i class="fa-solid fa-minus ms-[50%]"></i>
+    
+   
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+        
+        <div class="md:col-span-2 shadow-black p-5 rounded-lg p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text ">
+            <app-gymnastics-slider />
+        </div>
+        
+       
+        <div class= "shadow-black p-5 rounded-lg p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text ">
+            <app-seven-years-slider />
+        </div>
+        <div class= "shadow-black p-5 rounded-lg  p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text ">
+            <app-our-champions-in-gymnastics-slider />
+        </div>
+    </div>
+      <a routerLink="/events" class="nav button flex  justify-end w-full mt-10 text-2xl text-text cursor-pointer hover:text-icons"> <span class="me-1" >{{'events.more events'|translate}} </span><i class="fa-solid fa-calendar-check"></i></a>
+</div>
+
+}@else{
+    <div class="container mx-auto rounded-lg p-9 shadow-black" id="events">
+
+    <div class="flex p-2 justify-center  text-center"><h2 class="text-center text text-shadow-main text-4xl text-text mt-20">{{'events.title'|translate}}</h2></div><i class="fa-solid fa-minus ms-[50%]"></i>
+    
+    
+    <div class="grid grid-cols-1 shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text  md:grid-cols-2 gap-6 mt-10">
+        
+        <div class="md:col-span-2  p-5 rounded-lg">
+            <app-gymnastics-slider />
+        </div>
+        
+       
+        <div class=" shadow-black p-5 rounded-lg bg-white/20 rounded- dark:bg-gray-900 text-text ">
+            <app-seven-years-slider />
+        </div>
+        <div class="bg-white/20 p-5 rounded-lg dark:bg-gray-900 text-text shadow-black p-5 bg-white/20 rounded-lg dark:bg-gray-900 text-text" >
+
+            <app-our-champions-in-gymnastics-slider />
+        </div>
+        <div class="bg-white/20 p-5 rounded-lg dark:bg-gray-900 text-text" >
+            <app-historic />
+        </div>
+        <div class="bg-white/20 p-5 rounded-lg dark:bg-gray-900 text-text">
+            <app-message-of-life/>
+        </div>
+    </div>
+
+   
+  <app-homenav/>
+
+</div>
+
+}

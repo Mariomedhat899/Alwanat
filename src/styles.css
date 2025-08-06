@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@source "../node_modules/flowbite";
+
+html{
+    scroll-behavior: smooth;
+}
+
+@theme{
+
+    --color-links:#1C1C1C;
+    --color-text:#1C1C1C;
+    --color-bg-navbar:#071C33;
+    --color-bg:#A7E3F2;
+    --color-h:#1E4C91;
+    --color-icons:#F44336;
+    --color-text:#333333;
+    --color-dots:#EF4EA2;
+    --font-main:"Electrolize", sans-serif;
+    --color-global-bg:#F5F5F5;
+    --shadow-main:8px 8px 16px rgba(0,0,0,0.6);
+    --font-slogan: "Niconne", cursive;;
+}

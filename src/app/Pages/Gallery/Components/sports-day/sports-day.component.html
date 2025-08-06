@@ -1,0 +1,30 @@
+@if(land == true){
+  <div    class="mt-32 relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group  grid grid-cols-1 sm:grid-cols-2 gap-6 p-6">
+
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Sports Day/134616808_3813507325391995_10862409982222999_n.jpg" alt="Sports Day" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Sports Day/135007354_3813507255392002_3108342704814580983_n.jpg" alt="Sports Day" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Sports Day/135007354_3813507255392002_3108342704814580983_n.jpg" alt="Sports Day" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Sports Day/135014344_3813508738725187_3081483439548868815_n.jpg" alt="Sports Day" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute top-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.sports day.title'|translate}}</p>
+  </div>
+
+ <div class="text-center col-span-full">
+     <p class=" w-[80%] mx-auto ">{{'gallery.sports day.description'|translate}}</p>
+ </div>
+
+</div>
+<div class="mx-auto"> <app-homenav/></div>
+}@else {
+  <div [routerLink]="['/sports']"  routerLinkActive="router-link-active"  class="relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group cursor-pointer gap-6 p-6">
+  <div class="overflow-hidden rounded-lg"><img src="Gallery/Sports Day/134616808_3813507325391995_10862409982222999_n.jpg" alt="Sports Day" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300" /></div>
+
+  <div class="absolute bottom-0 left-0 w-full bg-black/30 bg-opacity-50 p-4 text-white text-lg font-semibold">
+    <p class="text-center">{{'gallery.sports day.title'|translate}}</p>
+  </div>
+
+  
+
+</div>
+}
