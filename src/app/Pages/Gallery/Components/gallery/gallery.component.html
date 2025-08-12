@@ -1,8 +1,12 @@
-<div class="container mx-auto px-4">
-    <h2 class="text-center text mb-5 text-shadow-main text-4xl text-text mt-20">{{'gallery.header'|translate}}</h2>
-    <div class="flex justify-center">
-        <i class="fa-solid fa-minus"></i>
-    </div>
+<div class="container mx-auto px-4 mt-10">
+    
+    <figure class="flex align-middle justify-content-center">
+        <figcaption class="me-auto">
+            <h2 class="text-center text mb-10 text-shadow-main text-4xl text-text mt-20">{{'gallery.header'|translate}}</h2>
+        </figcaption>
+        <img src="Assets/gallary.jpg" alt="gallery" class="w-40 lg:w-60 rounded rounded-5">
+    </figure>
+
     
     <section id="gallery" class="my-10 relative max-w-5xl w-full mx-auto rounded-xl overflow-hidden shadow-lg group grid grid-cols-1 sm:grid-cols-2 gap-6 p-6">
         <app-piano-learning />

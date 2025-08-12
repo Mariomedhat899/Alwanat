@@ -1,19 +1,23 @@
-@if(land ==false){
+@if(!land){
     <section class="mt-60 container mx-auto p-5" id="about" >
     <h1 class="text-center text-4xl text-shadow-lg text-shadow-main  text-text mt-10">{{'about.about us'|translate}}</h1><i class="fa-solid fa-minus mx-[50%]"></i>
-    <div class="our Vision">
-        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.our vision'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+   <div class="our Vision flex justify-content-between align-content-between">
+        <figure>
+            <img src="Assets/vission.jpg" alt="vission" class="w-40 lg:w-60 rounded rounded-5">
+        </figure>
+        <h2 class="mt-10 text-end ms-auto text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.our vision'|translate}}</h2>
 
-    <article class="mt-10 text-shadow-lg text-shadow-main  text-text ">{{'about.Vart'|translate}}</article>
     </div>
 
-    <div class="Our-Mission">
-        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Our Mission'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
-
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text">{{'about.Mp'|translate}}</p>
+     <div class="Our-Mission flex mt-10">
+        
+        <h2 class="mt-10 me-auto text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Our Mission'|translate}}</h2>
+        
+        <img src="Assets/mission.png" alt="Mission" class="w-40 lg:w-60 rounded rounded-5">
     </div>
+        <p class="mt-10 text-shadow-lg text-shadow-main text-center text-text">{{'about.Mp'|translate}}</p>
 
-  <a routerLink="/about" class="nav button flex  justify-end w-full mt-10 text-2xl text-text cursor-pointer hover:text-icons"> <span >{{'about.learn more'|translate}} </span> <i  class="fa-solid ms-1 mt-1 fa-newspaper"></i></a>
+  <a routerLink="/about" class="nav button flex  justify-end w-fit mt-10 text-2xl text-text cursor-pointer hover:text-icons"> <span >{{'about.learn more'|translate}} </span> <i  class="fa-solid ms-1 mt-1 fa-newspaper"></i></a>
       
     
 
@@ -22,31 +26,47 @@
 }@else{
     <section class="my-10 container mx-auto p-5 z-3" id="about">
     <h1 class="text-center text-4xl text-shadow-lg text-shadow-main  text-text mt-10">{{'about.about us'|translate}}</h1><i class="fa-solid fa-minus mx-[50%]"></i>
-    <div class="our Vision">
-        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.our vision'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
+    <div class="our Vision flex justify-content-between align-content-between">
+        <figure>
+            <img src="Assets/vission.jpg" alt="vission" class="w-40 lg:w-60 rounded rounded-5">
+        </figure>
+        <h2 class="mt-10 text-end ms-auto text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.our vision'|translate}}</h2>
 
+    </div>
     <article class="mt-10 text-shadow-lg text-shadow-main  text-text ">{{'about.Vart'|translate}}</article>
-    </div>
 
-    <div class="Our-Mission">
-        <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Our Mission'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
-
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text">{{'about.Mp'|translate}}</p>
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.offer'|translate}}</p>
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.empower'|translate}}</p>
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.revive'|translate}}</p>
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.create'|translate}}</p>
+    <div class="Our-Mission flex mt-10">
         
-
+        <h2 class="mt-10 me-auto text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Our Mission'|translate}}</h2>
+        
+        <img src="Assets/mission.png" alt="Mission" class="w-40 lg:w-60 rounded rounded-5">
     </div>
+    <p class="mt-10 text-shadow-lg text-shadow-main text-xl text-text">{{'about.Mp'|translate}}</p>
+    <p class="mt-10 text-shadow-lg text-shadow-main text-xl text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.offer'|translate}}</p>
+    <p class="mt-10 text-shadow-lg text-shadow-main text-xl text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.empower'|translate}}</p>
+    <p class="mt-10 text-shadow-lg text-shadow-main text-xl text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.create'|translate}}</p>
+    <p class="mt-10 text-shadow-lg text-shadow-main text-xl text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.revive'|translate}}</p>
     <div class="why-we-exsists">
-         <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.why'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
-        <p class="mt-10 text-shadow-lg text-shadow-main  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.cuz'|translate}}</p>
+        <figure class="flex w-full my-5">
+            <img src="Assets/why.webp" alt="why-we-exsists" class="w-40 lg:w-60 rounded rounded-5">
+            <figcaption class="ms-auto ">
+                <h2 class="mt-10 text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.why'|translate}}</h2>
+
+            </figcaption>
+        </figure>
+        <p class="my-10 text-shadow-lg text-shadow-main text-xl  text-text"><span><i class="fa-solid fa-minus me-1"></i></span>{{'about.cuz'|translate}}</p>
 
         <div class="events-at-alwanat">
-            <h2 class="mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Activities inside alwanat.events'|translate}}</h2><i class="fa-solid fa-minus mx-[50%]"></i>
 
-            <ul class="list-disc pl-5 space-y-3 text-lg">
+            <figure class="flex my-10">
+
+                <figcaption class="me-auto">
+            <h2 class="mt-4 lg:mt-10 text-center text-shadow-lg text-shadow-main  text-text text-2xl">{{'about.Activities inside alwanat.events'|translate}}</h2>
+
+                </figcaption>
+            <img src="Assets/activity.jpg" alt="Activities" class="w-40 lg:w-60 rounded rounded-5">
+            </figure>
+            <ul class="list-disc pl-5 space-y-3 text-xl">
                 <li>{{'about.Activities inside alwanat.courses'|translate}}</li>
                 <li>{{'about.Activities inside alwanat.cultural'|translate}}</li>
                 <li>{{'about.Activities inside alwanat.coworking'|translate}}</li>

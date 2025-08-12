@@ -1,0 +1,59 @@
+@if(!land){
+        <section class="mx-auto container width-[80%] flex-column">
+    <div class="img-fluid  justify-center" >
+        <h2 class="text-center text text-shadow-main text-4xl text-text mt-20">{{'news.girls.title'|translate}}</h2><i class="fa-solid fa-minus ms-[50%]"></i>
+        <figure class="">
+            <img src="News/Minya/201708130330273027.jpg" alt="Minya prepares in 'formal attire' for the first ballet performance in Upper Egypt" class="mx-auto rounded rounded-5 my-5">
+
+            <figcaption>
+                <p class="text-center text-text text-shadow-main text-2xl my-10">{{'news.minya.description'|translate}}</p>
+            </figcaption>
+        </figure>
+
+
+    </div>
+    <div class="flex justify-center">
+        <button routerLink="/minya" class="hover:bg-icons hover:text-white transition-all duration-300 cursor-pointer text-text text-2xl px-5 py-2 rounded rounded-5">{{'news.button'|translate}}</button>
+    </div>
+
+</section>
+
+
+
+}@else {
+        <section class="mx-auto container width-[80%] flex-column mt-30">
+    <div class="img-fluid  justify-center" >
+        <h2 class="text-center text text-shadow-main text-4xl text-text mt-20">{{'news.minya.title'|translate}}</h2><i class="fa-solid fa-minus ms-[50%]"></i>
+        <figure class="">
+            <img src="News/Minya/201708130330273027.jpg" alt="Minya prepares in 'formal attire' for the first ballet performance in Upper Egypt" class="mx-auto rounded rounded-5 my-5">
+
+            <figcaption>
+                <p class="text-start  text-text text-shadow-main text-2xl my-10">{{'news.minya.author'|translate}}</p>
+                
+                <p class="text-center text-text text-shadow-main text-2xl my-10">{{'news.minya.description'|translate}}</p>
+
+                <p class="text-center text-text text-shadow-main text-2xl my-10">{{'news.minya.quote'|translate}}</p>
+
+
+
+
+            </figcaption>
+        </figure>
+
+
+    </div>
+    <div class="flex flex-col lg:flex-row lg:justify-between">
+        <div>
+            <a class="text-text text-shadow-main text-2xl flex items-center justify-center px-4 py-2 bg-main text-black mx-auto rounded-md hover:bg-opacity-90 transition-all duration-300 shadow-md nav button mt-10 text-2xl text-text cursor-pointer hover:text-icons w-fit" href="https://www.youm7.com/story/2017/8/13/%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%A7-%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF-%D8%A8%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-%D9%84%D8%A3%D9%88%D9%84-%D8%B9%D8%B1%D8%B6-%D8%A8%D8%A7%D9%84%D9%8A%D9%87-%D8%A8%D8%A7%D9%84%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A8%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-50/3365611" target="_blank">Read Full Article</a>
+
+        </div>
+        <div >
+            <app-homenav/>
+        </div>
+    </div>
+
+</section>
+
+
+
+}

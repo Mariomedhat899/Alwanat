@@ -3,8 +3,10 @@
         "home": "Home",
         "about us": "About Us",
         "events": "Events",
-        "workshops": "Workshops",
-        "gallery": "Gallery"
+        "News": "News Archive",
+        "gallery": "Gallery",
+        "contact us": "Contact Us"
+
     }
     ,
     "hero": {
@@ -13,7 +15,7 @@
     }
     ,
     "events":{
-        "title": "Events",
+        "title": "Events Archive",
         "gymnastics": "Gymnastics",
         "gymnastics description": "A gymnastics event showcasing the best gymnasts in the region.",
         "seven years of alwanat": "Seven Years of Alwanat",
@@ -83,10 +85,60 @@
             "title":"Ceramics",
             "description":"Let your child get hands-on with clay in our exciting ceramics sessions! Kids will learn how to shape, mold, and decorate their own creations while enhancing their creativity, patience, and sensory skills — all in a fun, safe environment."
         }
+       
+
+        },
+         "news":{
+            "title":"News Archive",
+
+            "button":"Read More",
+
+            "first":{
+                "title":"First ballet show in Minya to be performed",
+                "P-description":"-Minya governorate is preparing to launch a ground breaking ballet show. The Alwanat Arts and Culture Foundation in Minya announced it will hold the first ballet performance, put on by 50 male and female dancers from the first ballet school in Upper Egypt.",
+                "F-description":"-The director of the show is Mamdouh Hassan, soloist at the Opera House and a professor at the Ballet Institute, said Alwanat founder Marco Adel on Sunday.",
+                "F-description-1":"-The show is scheduled for next Thursday. Minya Governor Essam Bedaiwy, President of Cairo Opera House Enas Abdel Dayem and a delegation of artists at the Opera House will attend the event, Adel said.",
+                "F-description-2":"-Alwanat ballet team performed on June 30 at Cairo Opera House, and staged another show in cooperation with the German Goethe-Institut and the German Embassy. The German Ambassador, the German Diplomatic Mission and 2,000 audience members attended the event, he added."
 
 
+            },
+
+            "girls":{
+                "title":"Girls learn ballet steps in conservative Upper Egypt",
+                "P-description":"-EGYPT: In Egypt’s conservative southern province of Minya, young girls in black leotards and white tights wobble on their tip toes to classical music in a room painted with colorful motifs.",
+                "F-description-1":"-EGYPT: In Egypt’s conservative southern province of Minya, young girls in black leotards and white tights wobble on their tip toes to classical music in a room painted with colorful motifs.",
+                "F-description-2":"-“Look forward, stretch your arms,” a male instructor calls out to the girls aged four and above.",
+                "F-description-3":"-They try to mimic their teacher, a professional ballet dancer from the capital, as he gracefully raises his arms over his head.",
+                "F-description-4":"-It’s a surprising scene in the traditional province, which more often makes headlines for family feuds or sectarian violence against its large Coptic Christian minority."
+                
+
+
+
+
+            },
+            "minya":{
+                "title":"Minya prepares in 'formal attire' for the first ballet performance in Upper Egypt with the participation of 50 dancers",
+                "author": "Written by Sara Darwish",
+                 "description": "With much joy, happiness, and also controversy, Egyptians welcomed nearly two years ago the news of the opening of the first ballet school in Upper Egypt, specifically in Minya Governorate. The school succeeded greatly in breaking the stereotype about Upper Egypt and the way its people think. In a similar reaction, Egyptians now, almost a year later, welcome the news of holding the first full ballet performance in the same governorate on Thursday, August 31.",
+                 "quote": "Marco Adel, founder and director of the 'Alwanat' Cultural Center to which the school belongs, considers this performance a 'very important new step' toward the center's goal: to tell all of Egypt that the children of Minya and Upper Egypt are capable, that Upper Egypt is full of talents and abilities, and that there is life and art in a place called Minya."
+    }
+
+    },
+    "contact":{
+        "title":"Contact Us",
+        "description":"We would love to hear from you! Whether you have a question, feedback, or just want to say hello, please don't hesitate to get in touch with us. You can reach us through the following channels:",
+        "name":"Name",
+        "email":"Email",
+        "phone":"Phone",
+        "message":"Message",
+        "send":"Send"
 
     }
 
+            }
 
-}
+
+
+    
+
+
