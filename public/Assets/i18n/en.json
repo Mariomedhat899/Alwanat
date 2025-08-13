@@ -1,8 +1,7 @@
 {
     "navbar":{
         "home": "Home",
-        "about us": "About Us",
-        "events": "Events",
+        "events": "Events Archive",
         "News": "News Archive",
         "gallery": "Gallery",
         "contact us": "Contact Us"
@@ -128,10 +127,26 @@
         "title":"Contact Us",
         "description":"We would love to hear from you! Whether you have a question, feedback, or just want to say hello, please don't hesitate to get in touch with us. You can reach us through the following channels:",
         "name":"Name",
-        "email":"Email",
+        "email":"Gmail",
         "phone":"Phone",
         "message":"Message",
-        "send":"Send"
+        "send":"Send",
+        "whatsapp":"Whatsapp",
+        "facebook":"FaceBook",
+        "hear":"We’d love to hear from you",
+        "insta":"Instagram",
+
+        "map":{
+            "map-title":"Alwanat Academy",
+            "map-description":" Located on the scenic Nile Corniche in Minya, Egypt, Alwanat Academy offers ballet, art, and creative workshops for all ages. It is a vibrant hub for artistic expression and cultural growth.",
+            "address":"Address:",
+            "map-location":"Corniche El Nile, Minya, Egypt",
+            "contact":"Contact:",
+            "number":"+20 123 456 789"
+
+
+        }
+
 
     }
 
